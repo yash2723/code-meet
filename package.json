@@ -24,7 +24,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "npm run build && npm server:prod && peerjs --port 9251",
+    "start": "npm run build && npm server:prod && peerjs --port 9624 --key peerjs --path /myapp",
     "start:front": "react-scripts start",
     "build": "react-scripts build",
     "server:dev": "nodemon server.js",
