@@ -68,9 +68,9 @@ export const EditorPage = () => {
       const ROOM_ID = roomId;
       const videoGrid = document.getElementById('clientsList')
       const myPeer = new Peer(undefined, {
-        // host: 'code-meet-27.herokuapp.com',
-        path: '/myapp',
-        port: '9624'
+        host: 'peer-js-27.herokuapp.com',
+        // path: '/myapp',
+        // port: '9624'
       })
       const myVideo = document.createElement('video')
       myVideo.muted = true
