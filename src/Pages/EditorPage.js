@@ -69,7 +69,7 @@ export const EditorPage = () => {
       const videoGrid = document.getElementById('clientsList')
       const myPeer = new Peer(undefined, {
         host: '/',
-        port: '3001'
+        port: '9251'
       })
       const myVideo = document.createElement('video')
       myVideo.muted = true
