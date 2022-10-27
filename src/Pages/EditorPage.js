@@ -71,7 +71,7 @@ export const EditorPage = () => {
         host: location.hostname,
         secure: true,
         path: 'peerjs',
-        port: location.port
+        port: '9746'
       })
       const myVideo = document.createElement('video')
       myVideo.muted = true
