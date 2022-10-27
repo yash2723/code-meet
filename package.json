@@ -24,7 +24,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "npm run build && npm server:prod && peerjs --host peer-js-27.herokuapp.com",
+    "start": "npm run build && npm server:prod && peerjs --port 9746",
     "start:front": "react-scripts start",
     "build": "react-scripts build",
     "server:dev": "nodemon server.js",
